@@ -1,0 +1,14 @@
+@import url("./cabecalho.css");
+@import url("./banner.css");
+@import url("./main.css");
+@import url("./banner-ea.css");
+@import url("./jogos.css");
+@import url("./noticias.css");
+@import url("./inscricao.css");
+@import url("./requisitos.css");
+@import url("./rodape.css");
+
+:root {
+  --fonte-principal: "Roboto Condensed";
+  --fonte-secundaria: "Fira Sans", sans-serif;
+}

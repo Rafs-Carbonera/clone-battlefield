@@ -1,0 +1,40 @@
+.banner-promo {
+  align-items: center;
+  background: url(../img/cloud-bf.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15rem 0 13rem;
+}
+
+.banner-promo-titulo {
+  color: #ffffff;
+  font-family: var(--fonte-secundaria);
+  font-size: 1.6rem;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  width: 25rem;
+}
+
+.banner-promo-direita {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+}
+
+.banner-promo-link {
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  color: #161616;
+  font-family: var(--fonte-secundaria);
+  font-weight: bold;
+  margin: 2rem 0 2rem;
+  padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+  text-decoration: none;
+  transition: transform 0.1s;
+}
+
+.banner-promo-link:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+.banner-ea {
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #090c31,
+    #2d153e,
+    #4f1a46,
+    #6f2148,
+    #8c2d45
+  );
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.banner-ea-titulo-texto {
+  color: #ffffff;
+  font-family: var(--fonte-secundaria);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.banner-ea-infos {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.banner-ea-infos-link {
+  border: 2px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-family: var(--fonte-secundaria);
+  padding: 1.2rem 1.5rem;
+  text-decoration: none;
+  transition: transform 0.1s;
+}
+
+.banner-ea-infos-link:hover {
+  transform: scale(1.1);
+}
